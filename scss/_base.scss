@@ -1,0 +1,12 @@
+$global-radius: 5px;
+$global-rounded: 1000px;
+
+h1, h2, h3,  {
+  font-family: $header-font-family; }
+li, a, p, h4, h5, h6 {
+  font-family: $body-font-family; }
+h2 {
+  margin-bottom: 2em; }
+form {
+	font-family: $body-font-family;	}
+

@@ -1,0 +1,30 @@
+$orbit-bullet-background: scale-color(rgba(57, 144, 239, 0.6), $lightness: 50%);
+$orbit-bullet-background-active: rgba(57, 144, 239, 0.6);
+$orbit-bullet-diameter: 0.8rem;
+$orbit-bullet-margin: 0.5rem;
+
+button.orbit-previous,
+button.orbit-next {
+	color: scale-color(rgba(57, 144, 239, 0.6), $lightness: 50%);  }
+
+.orbit-previous:hover,
+.orbit-next:hover {
+	border-radius: 50%;  }
+
+#reader {
+  margin-top: 0;
+  img {
+  	max-height: 25em;
+  	width: auto;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    @include breakpoint (medium) {
+    	max-height: 40em; }}}
+
+.issu {
+  margin: 2em;
+  @include breakpoint (medium) {
+    margin-top: 5em;  }}
+
+

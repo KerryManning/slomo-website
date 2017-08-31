@@ -1,0 +1,6 @@
+@mixin borders($b-right, $b-bottom, $b-left, $b-top) {
+	border-right: $b-right;
+	border-bottom: $b-bottom;
+	border-left: $b-left;
+	border-top: $b-top;	}
+

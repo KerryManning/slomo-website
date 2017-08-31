@@ -1,0 +1,37 @@
+// Logo styles
+.logo img,
+.logo {
+	max-height: 70px;
+	border-radius: 0%;
+	@include breakpoint(medium) {
+		max-height: 80px; }}
+#slomo-menu li .logo {
+  padding: 0;}
+
+// Link styles
+#slomo-menu li a,
+.title-bar-title a {
+	color: $white; }
+#slomo-menu li a:hover,
+.title-bar-title a:hover {
+	color: scale-color($black, $lightness: 60%); }
+#slomo-menu li.active {
+  text-decoration: underline; }
+
+// Background syles (for title-bar styles see foundation title-bar.scss file)
+#slomo-menu,
+#slomo-menu ul {
+  background-color: $black; }
+
+/*-----------------------
+prevent FOUC
+------------------------*/
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;  }}
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;  }}}
+

@@ -1,0 +1,20 @@
+.content-box button, .content-box .button {
+  margin-right: 1em;
+  font-family: $body-font-family;
+  background-color: rgba(57, 144, 239, 0.6);  }
+
+.content-box button:hover, .content-box .button:hover {
+  background-color: scale-color($black, $lightness: 60%); }
+
+#submit {
+	margin-right: 0;
+	margin-left: 1em;
+  padding: 1em; }
+
+#book {
+	margin-right: 0;
+  margin-top: 40%;
+	background-color: white; }
+
+.detail-buttons {
+  margin-top: 1em;  }
